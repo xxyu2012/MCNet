@@ -23,7 +23,7 @@ python test.py --dataroot=./dataset --epoch=200 --data_type=short
 
 '--data_type=short or long', 'short' means testing imges of short exposure time, while 'long' means testing imges of long exposure time (saturation images).
 
-The pretrained model can be downloaded at [Baidu Netdisk](链接：https://pan.baidu.com/s/1KpAx0z-aGZEECzMpzfzqZQ), password: `2zg2`.
+The pretrained model can be downloaded at [Baidu Netdisk](https://pan.baidu.com/s/1KpAx0z-aGZEECzMpzfzqZQ), password: `2zg2`.
 
 Testing results are saved in `./result/`， and each result inculdes 8 images, I<sub>A</sub>, I<sub>M</sub>, I<sub>G</sub>, I<sub>comp</sub>, I<sub>GT</sub>, I<sub>SAT</sub>, M(I<sub>G</sub>), M(I<sub>GT</sub>), Where the mean of these tokens are in our paper.
 
